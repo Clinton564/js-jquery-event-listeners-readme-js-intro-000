@@ -1,5 +1,5 @@
 //define functions here
-function window.getIt(){
+function getIt(){
 $('p').on('click', function() {
     alert("Hey!")
   });
@@ -8,5 +8,5 @@ $('p').on('click', function() {
 $(document).ready(function(){
 
 // call functions here
-
+window.getIt();
 });
